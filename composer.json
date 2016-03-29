@@ -1,0 +1,24 @@
+{
+    "name": "olaurendeau/rabbit-mq-admin-toolkit-cli",
+    "authors": [
+        {
+            "name": "Olivier Laurendeau",
+            "email": "o.laurendeau@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.3",
+        "symfony/console": "2.*",
+        "symfony/filesystem": "2.*",
+        "symfony/finder": "2.*",
+        "symfony/yaml": "2.*",
+        "symfony/config": "2.*",
+        "symfony/dependency-injection": "2.*",
+        "olaurendeau/rabbit-mq-admin-toolkit-bundle": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "App": "src/"
+        }
+    }
+}

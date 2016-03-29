@@ -1,0 +1,9 @@
+imports:
+- { resource: build.yml }
+- { resource: services.yml }
+
+parameters:
+  application:
+    name:         RabbitMQ admin toolkit CLI
+    slug:         rabbit-mq-admin-toolkit    # Used to name the built phar
+    description:  "RabbitMQ admin toolkit Command Line Interface (CLI) defining RabbitMQ configuration based on a configuration file"
