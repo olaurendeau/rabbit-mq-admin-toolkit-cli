@@ -42,11 +42,12 @@ class DefineCommand extends VhostDefineCommand
             throw new \InvalidArgumentException(sprintf('Unable to find config file at path "%s"', $configFile));
         }
 
-        $extension = new OlaRabbitMqAdminToolkitExtension();
-
-        $container = $this->getContainer();
         $parser = new Parser();
         $config = $parser->parse(file_get_contents($configFile));
-        $extension->load(array($config), $container);
+
+        $this
+            ->getContainer()
+            ->get('extension_loader')
+            ->load(new OlaRabbitMqAdminToolkitExtension(), array($config));
     }
 }

@@ -1,0 +1,15 @@
+delete_allowed: true # Allow deletion of exchange, queues and binding for updating configuration. Shouldn't be enabled in production
+connections:
+    default: http://user:password@localhost:15672
+vhosts:
+    default:
+        name: /my_vhost
+        permissions:
+            user: ~
+        exchanges:
+            exchange.a: ~
+        queues:
+            queue.a:
+                bindings:
+                    - { exchange: exchange.a, routing_key: "a.#" }
+                    - { exchange: exchange.a, routing_key: "b.#" }

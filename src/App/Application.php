@@ -29,6 +29,7 @@ class Application extends \Symfony\Component\Console\Application
 
         // create and populate the container
         $this->container = new ContainerBuilder();
+        $this->container->set('container', $this->container);
 
         // some useful paths
         $paths = array();
