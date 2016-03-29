@@ -38,7 +38,7 @@ class DefineCommandTest extends \PHPUnit_Framework_TestCase
 
     public function test_execute_withUnaccessibleFile()
     {
-        $this->expectException('\InvalidArgumentException');
+        $this->setExpectedException('\InvalidArgumentException');
 
         $this->commandTester->execute(array('command' => 'define'));
     }
