@@ -1,6 +1,8 @@
 # rabbit-mq-admin-toolkit-cli
 
 [![Build Status](https://travis-ci.org/olaurendeau/rabbit-mq-admin-toolkit-cli.svg?branch=master)](https://travis-ci.org/olaurendeau/rabbit-mq-admin-toolkit-cli)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/olaurendeau/rabbit-mq-admin-toolkit-cli/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/olaurendeau/rabbit-mq-admin-toolkit-cli/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/olaurendeau/rabbit-mq-admin-toolkit-cli/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/olaurendeau/rabbit-mq-admin-toolkit-cli/?branch=master)
 
 CLI wrapper for RabbitMQ admin toolkit
 
