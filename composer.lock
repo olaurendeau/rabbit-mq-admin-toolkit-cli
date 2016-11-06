@@ -292,16 +292,16 @@
         },
         {
             "name": "olaurendeau/rabbit-mq-admin-toolkit-bundle",
-            "version": "v1.2.3",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/olaurendeau/RabbitMqAdminToolkitBundle.git",
-                "reference": "3ab6908352ac8c9c4efa31ca7f1a6fb1d14e4bac"
+                "reference": "20bd8e08bff93583ddefd305a5ffddaeec292a6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/olaurendeau/RabbitMqAdminToolkitBundle/zipball/3ab6908352ac8c9c4efa31ca7f1a6fb1d14e4bac",
-                "reference": "3ab6908352ac8c9c4efa31ca7f1a6fb1d14e4bac",
+                "url": "https://api.github.com/repos/olaurendeau/RabbitMqAdminToolkitBundle/zipball/20bd8e08bff93583ddefd305a5ffddaeec292a6b",
+                "reference": "20bd8e08bff93583ddefd305a5ffddaeec292a6b",
                 "shasum": ""
             },
             "require": {
@@ -334,7 +334,7 @@
                 }
             ],
             "description": "Automate rabbitmq vhost's configuration creation / update",
-            "time": "2016-10-10 08:22:49"
+            "time": "2016-11-06 18:15:41"
         },
         {
             "name": "paragonie/random_compat",
