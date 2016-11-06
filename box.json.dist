@@ -4,13 +4,22 @@
     "app/config",
     "src"
   ],
-  "files": [
-    "./vendor/guzzle/guzzle/src/Guzzle/Http/Resources/cacert.pem"
-  ],
   "finder": [
     {
       "name": "*.php",
       "exclude": ["Tests", "tests"],
+      "in": "vendor"
+    },
+    {
+      "name": "*.xml",
+      "in": "vendor"
+    },
+    {
+      "name": "*.xsd",
+      "in": "vendor"
+    },
+    {
+      "name": "*.pem*",
       "in": "vendor"
     }
   ],
